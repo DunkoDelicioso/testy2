@@ -1,0 +1,72 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+    z-index: -1;
+}
+
+#input{
+  margin-top: 120px;
+  width: 400px;
+  height: 65px;
+  font-size: 40px;
+  font-family: 'Spartan', sans-serif;
+  font-style: italic;
+}
+
+#scroll{
+  font-size: 12px;
+  color: white;
+  overflow: scroll;
+  width: 400px;
+  height: 400px;
+}
+
+#container {
+    z-index: 100;
+    position: relative;
+    padding: 50px;
+    font-family: 'Spartan', sans-serif;
+  }
+
+  #container canvas, #overlay {
+    /* font-family: 'Mea Culpa', cursive; */
+
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+ 
+    /*
+      Introduced in IE 10.
+      See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+    */
+    -ms-user-select: none;
+    user-select: none;
+    
+    font-size: 2vh;
+    color: rgb(255, 255, 255);
+    position: absolute;
+  }
+  canvas {
+    border: 1px solid black;
+  }
+
+  #overlay1{
+
+    position: absolute;
+    z-index: 1000; 
+    margin-left: 45%; 
+    margin-top: 50%;
+
+  }
+
+/*# sourceMappingURL=main.css.map*/
